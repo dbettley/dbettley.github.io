@@ -1,61 +1,61 @@
 /*******************************
-             Global
+            Global
 *******************************/
 
 html,
 body {
   font-size: 15px;
+  height: 100%;
 }
 
-body#bettlim {
-  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif/*rtl:"Droid Arabic Kufi", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif */;
-  background: #FCFCFC url(../images/bg.png) repeat;
+body {
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  background: #FFFFFF;
   margin: 0px;
   padding: 0px;
   color: #555555;
+  text-rendering: optimizeLegibility;
   min-width: 320px;
 }
-body > .content  {
-  background: #FCFCFC url(../images/bg.png) repeat;
+
+/*******************************
+            Global
+*******************************/
+.ui.page.grid.segment {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
 }
 
-#bettlim.index .main.menu {
-  top: 0px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif/*rtl:"Droid Arabic Kufi", "Source Sans Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif */;;
+.ui.menu {
+  margin: 0rem;
 }
 
 /*--------------
     Masthead
 ---------------*/
-#bettlim .error.masthead {
+.error.masthead {
   position: absolute;
   margin-top: -290px;
   top: 50%;
   width: 100%;
 }
-#bettlim .error.masthead .container {
+.error.masthead .container {
   position: relative;
   z-index: 100;
 }
-#bettlim .masthead {
+.masthead {
   position: relative;
   overflow: hidden;
   background-color: #00B5AD;
   text-align: center;
-  margin-top: 38px;
+  margin-top: 0px;
   padding: 50px 0px;
   color: rgba(255, 255, 255, 0.9);
   margin-bottom: 0px;
   border-bottom: none;
 }
-#bettlim .masthead:before {
+
+.masthead:before {
   background: #00B5AD url(../images/tile-bg.png) repeat fixed 0% 0%;
   position: absolute;
   z-index: 1;
@@ -160,46 +160,46 @@ h5 {
  }
 
 }
-#bettlim .masthead .grid {
+.masthead .grid {
   position: relative;
   z-index: 2;
 }
-#bettlim .masthead .column {
+.masthead .column {
   display: table;
 }
-#bettlim .introduction {
+.introduction {
   display: table-cell;
   vertical-align: top;
   width: 100%;
 }
-#bettlim .masthead .labeled.button {
+.masthead .labeled.button {
   position: relative;
   left: 0px;
   top: 0px;
   width: auto !important;
   margin-right: 1em;
 }
-#bettlim .masthead.segment h1 {
+.masthead.segment h1 {
   font-size: 5em;
   color: #FFFFFF;
   line-height: 1.2;
   margin: -20px 0px 0px;
   padding-bottom: 0px;
 }
-#bettlim .masthead strike {
+.masthead strike {
   color: rgba(0, 0, 0, 0.2);
 }
-#bettlim .masthead h2 {
+.masthead h2 {
   font-weight: normal;
   margin: -10px 0 16px 0px;
   font-size: 1.75em;
   border-bottom: none;
   line-height: 1;
 }
-#bettlim .masthead .menu {
+.masthead .menu {
   width: 375px;
 }
-#bettlim .masthead p {
+.masthead p {
   font-size: 1.5em;
   margin: 1em 0em 1.5em;
   padding: 0px;
@@ -210,41 +210,41 @@ h5 {
   pre.console {
     height: 150px;
   }
-  #bettlim.index .masthead {
+  .index .masthead {
     text-align: center;
     padding: 50px 0px 15px;
   }
-  #bettlim.index .masthead h1 {
+  .index .masthead h1 {
     font-size: 3em;
   }
-  #bettlim.index .masthead h1 .icon {
+  .index .masthead h1 .icon {
     display: none;
   }
-  #bettlim.index .masthead .button {
+  .index .masthead .button {
     font-size: 1.1em;
     margin-bottom: 0.5em;
   }
-  #bettlim.index .masthead h2 {
+  .index .masthead h2 {
     font-size: 1.25em;
     margin: 0em 0em 1em;
   }
-  #bettlim.index .masthead p {
+  .index .masthead p {
     font-size: 1.35em;
   }
-  #bettlim.index .container {
+  .index .container {
     margin-left: 2em;
     margin-right: 2em;
   }
-  #bettlim.index .icon.header .icon {
+  .index .icon.header .icon {
     font-size: 3em;
   }
-  #bettlim .introduction {
+  .introduction {
     display: block;
   }
-  #bettlim #menu .hide.item {
+  #menu .hide.item {
     display: block;
   }
-  #bettlim #menu .item > .icon {
+  #menu .item > .icon {
     font-size: 1em !important;
   }
 }
